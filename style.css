@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body {
+    font-family: 'Jost';
+    background-image: url('background.png') ;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+#name h1 {
+    font-size: 4rem;
+    font-style: bold;
+    color: red;
+    margin-top: 20rem;
+}
+#description p {
+    font-size: 1.5rem;
+    color: white;
+}
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
